@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>Docker 安装使用 | 清辉 の Blog</title><meta name="author" content="含光"><meta name="copyright" content="含光"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="Docker 安装最近腾讯云租了一台轻量级应用服务器。系统选择的是Ubuntu22.04，用于软件工程课程设计等。 Docker 对 Linux 内核的版本有些要求，使用命令验证内核和架构信息： 1uname - a  内核版本高于 3.10 即可。 更新软件源： 123sudo apt updatesudo apt upgradesudo apt full-upgrade    安装必要的证书并">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>Docker 安装使用 | 清辉 の Blog</title><meta name="author" content="含光"><meta name="copyright" content="含光"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Docker 安装最近腾讯云租了一台轻量级应用服务器。系统选择的是Ubuntu22.04，用于软件工程课程设计等。 Docker 对 Linux 内核的版本有些要求，使用命令验证内核和架构信息： 1uname - a  内核版本高于 3.10 即可。 更新软件源： 123sudo apt updatesudo apt upgradesudo apt full-upgrade    安装必要的证书并">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Docker 安装使用">
 <meta property="og:url" content="https://zuowanghang.github.io/2023/03/25/Docker-%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8/index.html">
@@ -139,7 +139,7 @@
       win.activateLightMode = function () {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
         }
       }
       const t = saveToLocal.get('theme')

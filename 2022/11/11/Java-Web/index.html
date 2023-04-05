@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>Java Web | 清辉 の Blog</title><meta name="author" content="含光"><meta name="copyright" content="含光"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="JDBC事件简单来说，顺序执行一条以上语句才能完成的一个过程即可称为事件。 转账： id 为 1 的银行用户给 id 为 2 的用户转账 500 块 12update account set money &#x3D; money - 500 where id &#x3D; 1;update account set money &#x3D; money - 500 where id &#x3D; 2;  MySQL 中的事件定义： 123">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>Java Web | 清辉 の Blog</title><meta name="author" content="含光"><meta name="copyright" content="含光"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="JDBC事件简单来说，顺序执行一条以上语句才能完成的一个过程即可称为事件。 转账： id 为 1 的银行用户给 id 为 2 的用户转账 500 块 12update account set money &#x3D; money - 500 where id &#x3D; 1;update account set money &#x3D; money - 500 where id &#x3D; 2;  MySQL 中的事件定义： 123">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Java Web">
 <meta property="og:url" content="https://zuowanghang.github.io/2022/11/11/Java-Web/index.html">
@@ -138,7 +138,7 @@
       win.activateLightMode = function () {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
         }
       }
       const t = saveToLocal.get('theme')
