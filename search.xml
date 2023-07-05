@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Git基本使用</title>
+      <link href="/2023/07/05/Git%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
+      <url>/2023/07/05/Git%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Git-基本使用"><a href="#Git-基本使用" class="headerlink" title="Git 基本使用"></a>Git 基本使用</h1><p>初始化仓库：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure><p>将当前文件夹下所有文件添加到版本控制：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure><p>带描述的提交到版本控制：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m &quot;comment&quot;</span><br></pre></td></tr></table></figure><p>将远程仓库中的文件拉下来（建立仓库的时候选择了 gitignore 还有 LICENSE 都要拉下来）：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull 仓库链接（http/ssh）</span><br></pre></td></tr></table></figure><p>–allow-unrelated-hostories 合并本地和远程两个不同的仓库。</p><p>添加远程仓库：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin 仓库地址（http/ssh）</span><br></pre></td></tr></table></figure><p>origin 用来在本地标识远程仓库，可能有多个远程仓库，推送或拉取时，需要指明推送或者拉取哪个仓库的最新版本</p><p>将远程仓库移除：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote remove 仓库名</span><br></pre></td></tr></table></figure><p>拉取最新的版本：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git fetch origin master </span><br></pre></td></tr></table></figure><p>查看冲突文件：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure><p>推送本地最新版本到远程仓库：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure><p>origin 为远程仓库标识，master 指的是将要推送到哪个分支。</p><p>克隆远程仓库代码到本地：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone 仓库链接</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Docker 安装使用</title>
       <link href="/2023/03/25/Docker-%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8/"/>
       <url>/2023/03/25/Docker-%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8/</url>
