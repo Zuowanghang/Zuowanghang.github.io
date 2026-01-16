@@ -4852,6 +4852,13 @@ figure.highlight pre .javascript .function {
 .medium-zoom-overlay {
   z-index: 99999 !important;
 }
+.mermaid-wrap {
+  margin: 0 0 20px;
+  text-align: center;
+}
+.mermaid-wrap > svg {
+  height: 100%;
+}
 .utterances,
 .fb-comments iframe {
   width: 100% !important;
